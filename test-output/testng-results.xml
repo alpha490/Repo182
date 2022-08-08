@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Wrong username has been entered :Restrcited User]]>
+    </line>
+    <line>
+      <![CDATA[Wrong username has been entered :restricted user]]>
+    </line>
+    <line>
+      <![CDATA[ Incoorect Log]]>
+    </line>
+    <line>
+      <![CDATA[Nike Unisex Black ,Grey, White Cotton Ankle Length Socks - 3 Pairs Here is the search product name]]>
+    </line>
+    <line>
+      <![CDATA[₹129 Here is the search product name]]>
+    </line>
+    <line>
+      <![CDATA[ Incoorect Log]]>
+    </line>
+    <line>
+      <![CDATA[Eglob Men Black Round Dial Leather Analog Casual Watch Here is the search product name]]>
+    </line>
+    <line>
+      <![CDATA[₹179 Here is the search product name]]>
+    </line>
+    <line>
+      <![CDATA[ Incoorect Log]]>
+    </line>
+    <line>
+      <![CDATA[VIVO Y15C (3/64 GB) Mobile Here is the search product name]]>
+    </line>
+    <line>
+      <![CDATA[₹11429 Here is the search product name]]>
+    </line>
+    <line>
+      <![CDATA[ Incoorect Log]]>
+    </line>
+    <line>
+      <![CDATA[Digimate MDR-XB450 Extra Bass Over the Ear Wired Headphones Here is the search product name]]>
+    </line>
+    <line>
+      <![CDATA[₹279 Here is the search product name]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-28T12:30:57 IST" name="Default suite" finished-at="2022-07-28T12:32:56 IST" duration-ms="119544">
+    <groups>
+    </groups>
+    <test started-at="2022-07-28T12:30:57 IST" name="Default test" finished-at="2022-07-28T12:32:56 IST" duration-ms="119544">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:30:57 IST" name="initialize" finished-at="2022-07-28T12:31:00 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:31:00 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-28T12:31:21 IST" duration-ms="21282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser1@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong username has been entered :Restrcited User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:31:21 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-28T12:31:40 IST" duration-ms="18367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser2@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong username has been entered :restricted user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basesearch(java.lang.String)[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:31:40 IST" name="basesearch" data-provider="getsearch" finished-at="2022-07-28T12:31:59 IST" duration-ms="19696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NIKE SHOES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Incoorect Log]]>
+            </line>
+            <line>
+              <![CDATA[Nike Unisex Black ,Grey, White Cotton Ankle Length Socks - 3 Pairs Here is the search product name]]>
+            </line>
+            <line>
+              <![CDATA[₹129 Here is the search product name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basesearch -->
+        <test-method signature="basesearch(java.lang.String)[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:31:59 IST" name="basesearch" data-provider="getsearch" finished-at="2022-07-28T12:32:18 IST" duration-ms="18877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WATCH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Incoorect Log]]>
+            </line>
+            <line>
+              <![CDATA[Eglob Men Black Round Dial Leather Analog Casual Watch Here is the search product name]]>
+            </line>
+            <line>
+              <![CDATA[₹179 Here is the search product name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basesearch -->
+        <test-method signature="basesearch(java.lang.String)[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:32:18 IST" name="basesearch" data-provider="getsearch" finished-at="2022-07-28T12:32:36 IST" duration-ms="17767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[APPLE PHONE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Incoorect Log]]>
+            </line>
+            <line>
+              <![CDATA[VIVO Y15C (3/64 GB) Mobile Here is the search product name]]>
+            </line>
+            <line>
+              <![CDATA[₹11429 Here is the search product name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basesearch -->
+        <test-method signature="basesearch(java.lang.String)[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:32:36 IST" name="basesearch" data-provider="getsearch" finished-at="2022-07-28T12:32:55 IST" duration-ms="19191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HEADPHONE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Incoorect Log]]>
+            </line>
+            <line>
+              <![CDATA[Digimate MDR-XB450 Extra Bass Over the Ear Wired Headphones Here is the search product name]]>
+            </line>
+            <line>
+              <![CDATA[₹279 Here is the search product name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basesearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.HomePage@fd8294b]" started-at="2022-07-28T12:32:55 IST" name="teardown" finished-at="2022-07-28T12:32:56 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
